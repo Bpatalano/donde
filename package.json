@@ -1,0 +1,10 @@
+{
+  "name" : "donde",
+  "version" : "0.0.1",
+  "description" : "The first version of donde",
+  "main" : "server.js",
+  "repository" : "MKS-SF-Mvp",
+  "dependencies" : {
+    "express" : "~4.0.0"
+  }
+}
