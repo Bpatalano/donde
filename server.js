@@ -7,9 +7,9 @@ var app = express();
 app.use(express.static(__dirname + '/public'))
 
 
-app.get('/', function(req, res) {
-  res.render('index');
-});
+// app.get('/', function(req, res) {
+//   res.render('index');
+// });
 
 var port = process.env.PORT || 1337;
 
