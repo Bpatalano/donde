@@ -3,7 +3,10 @@
   "version" : "0.0.1",
   "description" : "The first version of donde",
   "main" : "server.js",
-  "repository" : "MKS-SF-Mvp",
+  "scripts" : {
+    "start" : "node ./server.js"
+  }
+
   "dependencies" : {
     "express" : "~4.0.0"
   }

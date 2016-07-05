@@ -8,10 +8,7 @@ app.use(express.static(__dirname + '/public'))
 
 
 app.get('/', function(req, res) {
-  if (err) {
-    console.log(err);
-  }
-  res.render('index');
+  res.render('index.html');
 });
 
 var port = process.env.PORT || 1337;
