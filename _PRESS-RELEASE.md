@@ -18,27 +18,41 @@ Once the project moves into development, the press release can be used as a touc
  
 ## Heading ##
   > Name the product in a way the reader (i.e. your target customers) will understand.
+  ¿Donde?
 
 ## Sub-Heading ##
   > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  People introducing themselves that want to be able to show on a map where they are from and give a couple facts about the area they come from.
 
 ## Summary ##
   > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
 
+  ¿Donde? is a query app that returns interesting information about a location typed into a search field. This location can be any real city in the world and the app will return interesting facts about that location such as it's population, climate, demographics, it's nearest coast, what large cities it's near, and how close it is to them. In addition to that it will generate 2 maps, one that shows where in the country the city is located and the other showing a map of the city itself. All of this is displayed in a very concise and glanceable interface that is ideal for quick icebreaking situations, or for learning the gist of where someone is from in a short amount of time.
+
 ## Problem ##
   > Describe the problem your product solves.
+
+This product solves the issue that sometimes arises when people discussing where they are from run into when one person hasn't the slightest idea of the geography of the other person's hometown. Slowly the person trying to describe where they are from moves to more notable, often larger reference cities that are farther and farther from their hometown to manage to get to a point that the other person knows about. This product would skip this conversation and get right to the point by displaying multiple relative locations of each person's hometown and give some interesting facts about the town at the same time to add to the conversation.
 
 ## Solution ##
   > Describe how your product elegantly solves the problem.
 
+  This product solves the problem by calling on wolframalpha.com's search engine to find the city and return statistics, demographics, and geographics. It then displays the results in a glanceable format that is perfect for quick querying and sharing between people on one screen. The most obvious alternative to this would be to use a google map search, but this app would be superior because it would only have one, specific result and would simultaneously display some interesting facts about the place you are searching about that would be nice for conversation. Furthermore google map searches return dynamic results that can slow down the rate at which results are returned where this product returns a static result that is formatted for quick searching and sharing to keep the conversation moving. This simple, speed driven search and share format is exactly the point so that it is never quicker to try and describe to a new person where you are from and instead you can just use ¿Donde? and keep the conversation moving.
+
 ## Quote from You ##
   > A quote from a spokesperson in your company.
 
+  '¿Donde? is the quickest way to get to know a room full of new people's origins in an organic conversation.'
+
 ## How to Get Started ##
   > Describe how easy it is to get started.
+  There are no profiles or sign-ups, so it's as quick and painless as possible. Eventually your top queries will be saved as well, so someone can just bring up their hometown without any typing required.
 
 ## Customer Quote ##
   > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  'I was so tired of descibing where the "Inland Empire" was in relation to LA, and now with ¿Donde? I can just type in "Riverside" and select USA and CA and I have a map of the whole area and a list of nearby cities and their distances from my city. It's great for meeting new people and seeing where they are from.'
 
 ## Closing and Call to Action ##
   > Wrap it up and give pointers where the reader should go next.
+
+  '¿Donde? doesn't do anything new or too exciting, but in a globalized world where coworkers, neighbors, or anyone you are meeting for the first time may be from anywhere in the world, it makes showing others exacty where you're from and seeing where they are from quicker and easier than trying to explain yourself by returning just the interesting information and displaying it in a glanceable format. To see this web app in action just head over to ...'
