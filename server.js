@@ -7,11 +7,13 @@ var app = express();
 
 app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.json());
+app.set('views', __dirname + '/views');
+app.set('view engine', 'ejs');
 
 
-// app.get('/', function(req, res) {
-//   res.render('index');
-// });
+app.get('/', function(req, res) {
+  res.render('index');
+});
 
 var port = process.env.PORT || 1337;
 
