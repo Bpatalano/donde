@@ -6,10 +6,16 @@
 </head>
 <body>
     <div ng-app="donde" ng-controller="dondeControl">
-      <form class = "simple-form" ng-submit = "query()">
-        <input type = "text" ng-model = "newQuery.place" placeholder="Enter your hometown here"/>
-        <button type = "submit"> ¿Donde? </button>
-      </form>
+      
+      <input type = "text" ng-model = "newQuery"/>
+      <button ng-click = "query(newQuery)" > ¿Donde? </button>
+      <ul>
+        <li ng-repeat = "results in result.data">
+          <h3>{{results.title}} </h3>
+          <div>{{results.subpods[0].text}}</div>
+          <img ng-src= "{{results.subpods[0].image}}"> </img>
+        </li>
+      </ul>
     </div>
 </body>
 </html>

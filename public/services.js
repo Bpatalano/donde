@@ -12,10 +12,13 @@ angular.module('donde', [])
 .factory( 'dondeQuery', function($http) {
   var query = function(newQuery) { 
     console.log(newQuery);
+    var data = {
+      place : newQuery 
+    }
     return $http({
       method: 'POST',
       url: '/query',
-      data: newQuery
+      data: data
     })
       .then(function (resp) {
         console.log ("Results:", resp)
