@@ -8,18 +8,19 @@
 <body>
     <div ng-app="donde" ng-controller="dondeControl">
       
-      <select id="country" name ="country" ng-model = "newQuery.country"></select>
+      <select id="country" name ="country" ng-model = "newQuery.country" ></select>
       <select name ="state" ng-model = "newQuery.state" id ="state" ></select>
-      <script language="javascript"> populateCountries("country", "state"); </script>
+      <script language="javascript"> populateCountries("country", "state"); populateCountries("country2"); </script>
       <input  type = "text" ng-model = "newQuery.city" placeholder = "City Name"/>
       <button ng-click = "query(newQuery)" > ¿Donde? </button>
       <ul>
         <li ng-repeat = "results in result.data">
           <h3>{{results.title}} </h3>
-          <div>{{results.subpods[0].text}}</div>
+          <!-- <div>{{results.subpods[0].text}}</div> -->
           <img ng-src= "{{results.subpods[0].image}}"> </img>
         </li>
       </ul>
     </div>
+    <footer>Powered by Wolframalpha.com with help from http://bdhacker.wordpress.com</footer>
 </body>
 </html>
