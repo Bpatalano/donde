@@ -1,6 +1,6 @@
 var express = require('express');
 var bodyParser = require('body-parser');
-
+var util = require('./utilities.js');
 
 
 var app = express();
@@ -14,6 +14,8 @@ app.set('view engine', 'ejs');
 app.get('/', function(req, res) {
   res.render('index');
 });
+
+app.post('/query', util.query);
 
 var port = process.env.PORT || 1337;
 
