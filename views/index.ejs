@@ -8,10 +8,10 @@
 <body>
     <div ng-app="donde" ng-controller="dondeControl">
       
-      <select id="country" name ="country" ng-init="$invalid" ng-model = "newQuery.country"></select>
+      <select id="country" name ="country" ng-model = "newQuery.country"></select>
       <select name ="state" ng-model = "newQuery.state" id ="state" ></select>
+      <script language="javascript"> populateCountries("country", "state"); </script>
       <input  type = "text" ng-model = "newQuery.city" placeholder = "City Name"/>
-      <script language="javascript">populateCountries("country", "state"); </script>
       <button ng-click = "query(newQuery)" > ¿Donde? </button>
       <ul>
         <li ng-repeat = "results in result.data">
