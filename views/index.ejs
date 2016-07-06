@@ -3,11 +3,15 @@
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.min.js"></script>
   <script src="/services.js"></script>
+  <script type= "text/javascript" src = "countries.js"></script>
 </head>
 <body>
     <div ng-app="donde" ng-controller="dondeControl">
       
-      <input type = "text" ng-model = "newQuery"/>
+      <select id="country" name ="country" ng-init="$invalid" ng-model = "newQuery.country" placeholder = "Country Name"></select>
+      <select name ="state" ng-model = "newQuery.state" id ="state" placeholder = "State Name"></select>
+      <input  type = "text" ng-model = "newQuery.city" placeholder = "City Name"/>
+      <script language="javascript">populateCountries("country", "state"); </script>
       <button ng-click = "query(newQuery)" > ¿Donde? </button>
       <ul>
         <li ng-repeat = "results in result.data">

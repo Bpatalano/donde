@@ -13,7 +13,7 @@ angular.module('donde', [])
   var query = function(newQuery) { 
     console.log(newQuery);
     var data = {
-      place : newQuery 
+      place : newQuery.city + " " + newQuery.state + " " + newQuery.country
     }
     return $http({
       method: 'POST',
